@@ -99,6 +99,11 @@ th{
   padding:5px;
   box-shadow:50px 0px 100px 10px black,inset 10px -5px  30px -2px black;
 }
+th.id,td.id{
+  width:5vw;
+}
+
+
 
 tr{
   /* border-radius:12px; */
@@ -110,10 +115,14 @@ td{
   width:15vw;
   padding:5px;
 }
-
+th.email,td.email{
+  width:25vw;
+}
 input{
   background:green;
     box-shadow:50px 0px 100px 10px black,inset 10px -5px  30px -2px black;
+    color:white;
+    padding:3px;
 }
 button{
   width:20%;
@@ -129,4 +138,8 @@ button.cancel{
 
 .frmbtn{
   width:40%;
+}
+
+.editAdd{
+  background:black;
 }

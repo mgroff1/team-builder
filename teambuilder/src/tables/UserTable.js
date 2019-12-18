@@ -7,10 +7,10 @@ const UserTable = props => (
     <thead>
 
       <tr>
-        <th>ID</th>
+        <th className="id">ID</th>
         <th>Name</th>
-        <th>Username</th>
-        <th>Actions</th>
+        <th className="email">Email</th>
+        <th>Role</th>
       </tr>
 
     </thead>
@@ -18,10 +18,10 @@ const UserTable = props => (
       {props.users.length > 0 ? (props.users.map((user,index) =>(
 
         <tr key={user.id}>
-          <td> ID:{index+1} </td>
+          <td className="id"> ID:{index+1} </td>
           <td id="myInput"> Name: {user.name} </td>
-          <td> Last Name: {user.lastname}</td>
-          <td> User Name: {user.username} </td>
+          <td className="email"> Email: {user.email}</td>
+          <td> Role: {user.role} </td>
           <td>
             <button
               onClick={() => {
