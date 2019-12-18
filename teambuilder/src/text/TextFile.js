@@ -34,7 +34,7 @@ export function Text(props) {
       <div>
 
 
-        <button onClick={()=>downloadTxtFile(<UserTable value="[...Object.values(this)]"/>)}>CLICK</button>
+        <button onClick={()=>downloadTxtFile(<UserTable/>)}>CLICK</button>
 
       </div>
     );

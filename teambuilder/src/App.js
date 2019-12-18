@@ -10,9 +10,6 @@ import {Text} from './text/TextFile.js';
 const App = ()=> {
   const userData = [
     {id: 1, name: 'Mick',lastname:'Groff', username: 'mgroff'},
-    {id: 2, name: 'Jerry', username: 'JJ'},
-    {id: 3, name: 'Cheesy', username: 'cheesecake'},
-
   ]
 const initialFormState = { id: null, name: '', username: '' }
 const [users,setUsers] = useState(userData)
